@@ -322,8 +322,8 @@ namespace Crypto {
     } ab[];
   };
 
-  static inline size_t rs_comm_size(size_t pubs_count) {
-    return sizeof(rs_comm) + pubs_count * sizeof(rs_comm().ab[0]);
+  static inline size_t rs_comm_size(size_t pubs_count) { 
+     return sizeof(rs_comm) + pubs_count * 2 * sizeof(ec_point); 
   }
 
   void crypto_ops::generate_ring_signature(const Hash &prefix_hash, const KeyImage &image,
