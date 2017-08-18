@@ -1,3 +1,9 @@
+## Zedd (Ƶ)
+
+Zedd is a fork of CryptoNote.
+
+## Original CryptoNote build instruction
+
 This is the reference code for [CryptoNote](https://cryptonote.org) cryptocurrency protocol.
 
 * Launch your own CryptoNote currency: [CryptoNote Starter](https://cryptonotestarter.org/)
