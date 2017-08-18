@@ -319,11 +319,11 @@ namespace Crypto {
     Hash h;
     struct {
       EllipticCurvePoint a, b;
-    }
+    } ab[];
   };
 
-  static inline size_t rs_comm_size(size_t pubs_count) { 
-      return sizeof(rs_comm) + pubs_count * sizeof(ec_point_pair);
+  static inline size_t rs_comm_size(size_t pubs_count) {
+    return sizeof(rs_comm) + pubs_count * sizeof(rs_comm().ab[0]);
   }
 
   void crypto_ops::generate_ring_signature(const Hash &prefix_hash, const KeyImage &image,
