@@ -74,7 +74,7 @@ const char     MINER_CONFIG_FILE_NAME[]                      = "miner_conf.json"
 
 //TODO Put here the name of your currency
 const char     CRYPTONOTE_NAME[]                             = "Zedd";
-const char GENESIS_COINBASE_TX_HEX[] = "013c01ff00010e029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd0880712101ca2728c806df51d379521a9c0367a7a0d2fda14b90908efb65357a3517d976c9";
+const char GENESIS_COINBASE_TX_HEX[] = "013c01ff0001ffffffffffff01029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121012534286fe7c0480039b67ac847c61341667d57c37b7246ebadd063562d889600";
 
 
 const uint8_t  CURRENT_TRANSACTION_VERSION                   =  1;
